@@ -1,0 +1,329 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container .container_v{
+  width: 100%;
+  max-width: 1170px !important;
+  margin: auto;
+}
+
+
+body{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Encabezado*/
+
+
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+	width: auto;
+	padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo img{
+  width: 110px;
+ }
+
+.logo h1{
+  color:black;
+  margin: auto;
+  padding-left: 20px;
+  font-size: 28px;
+  font-style: italic;
+} 
+
+.wsp{
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 15px;
+	justify-content: space-between;
+
+}
+ .wsp img{	  
+	  height: 100px;
+}
+
+.wsp p{
+  padding-right: 20px;
+  text-align: right;
+  font-size: 16px;
+  font-style: italic;
+  color: grey;
+}
+
+
+ .wsp a{
+  text-decoration: none;
+  color: black;
+  font-size: 38px;
+  padding-left: 35px;
+  padding-right: 20px;
+ }
+
+
+/* Fin Encabezado*/
+
+.bx-wrapper, .bx-viewport{
+	border: none !important;
+	background: #1c1425 !important;
+	align-items: center !important;
+	justify-content: center !important;
+  margin: 0 auto;
+}
+
+.bx-wrapper img{
+  margin: 0 auto;
+}
+
+@media all and (max-width: 500px) {
+  .logo img {
+         width: 90px; 
+         margin: auto;
+         padding-top: 20px;
+         padding-bottom: 20px;}
+
+  .logo h1{
+    font-size: 20px;
+
+  }
+
+  .wsp{
+    margin: auto;
+  }
+
+  .wsp img{
+    height: 60px;
+  }
+
+  .wsp a{
+    font-size: 22px;
+  }
+
+  .wsp p{
+    font-size: 16px;
+  }
+}
+
+/* Presentacion */
+
+
+.container{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.container h3{
+  font-size: 2.5em;
+  color: #1c1425;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.container p{
+  font-size:2em;
+  color: #b6b6b6;
+  padding-bottom: 70px;
+
+}
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding-bottom: 70px;
+
+}
+
+.box img{
+  width: 100%;
+  min-width: 350px;
+}
+
+.box h2{
+  font-size: 2.5em;
+  color: grey;
+  padding-bottom: 40px;
+}
+
+
+.container_v{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+@media all and (max-width: 500px) {
+  .box h2{
+    font-size: 2.0em;
+  }
+
+  .ml-form-embedContent h4{
+    font-size: 20px !important;
+  }
+
+}
+/* Fin Presentacion */
+
+
+/*Servicios*/
+
+.box_final{
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box_final h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box_final img{
+
+  width: 120px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.box_final p{
+
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+}
+
+hr{
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 177px /10px;
+    height: 0px;
+    text-align: center;
+    width:100%;
+    margin: auto;
+}
+/*Fin Servicios*/
+
+
+
+/* Pie de Pagina */
+
+.top-footer{
+  background-color: #1c1425;
+}
+
+
+.top-footer .container_v{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: white;
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.top-footer h4{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.top-footer input{
+  font-size: 1.3em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 12px 50px;
+  transition: all 400ms ease;
+  background-color: white;
+}
+
+.top-footer a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #1c1425;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: all 400ms ease;
+}
+
+.top-footer a:hover {
+ background-color: rgba(0,0,0,0.2);
+ color: white;
+
+}
+
+.bottom-footer{
+  height: 25px;
+  background-color: #1c1425;
+}
+
+.bottom-footer p{
+  padding-top: 5px;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+#facebook, #instagram {
+  background-color: white;
+  cursor: pointer;
+  width: 97px;
+  padding:5px;
+  padding-bottom: 47px;
+  padding-top: 5px;
+}
+
+@media all and (max-width: 500px){
+  #facebook,#instagram{
+    width: 60px;
+  }
+}
+
+/* Fin Pie de Pagina */

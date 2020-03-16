@@ -1,0 +1,7 @@
+﻿User-agent: Unnecessarybot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+sitemap: http://velvetnutrition.com.ar/sitemap.xml
